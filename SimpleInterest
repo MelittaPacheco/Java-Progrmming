@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Enter Principal value: ");
+		Scanner s = new Scanner(System.in);
+	    float P= s.nextFloat();
+		System.out.println("Enter Time value: ");
+		Scanner t = new Scanner(System.in);
+	    float T= t.nextFloat();
+	    System.out.println("Enter Rate value: ");
+		Scanner r= new Scanner(System.in);
+	    float R= r.nextFloat();
+	    float ans=1+ R*T;
+	    float interest= P*ans;
+		System.out.print("SIMPLE INTEREST IS "+ interest);
+	}
